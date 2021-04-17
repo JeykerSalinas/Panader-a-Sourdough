@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/584ed4bb80.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="panadería.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <title>Panadería Sauerdof</title>
+</head>
+<body>
+<div id="page-wraper">
+    <header id="header">
+        <div class="logo">
+            <img  id="head-img" 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQVa4-0mqNNckNCDhBbuoB0rd338HgJ2bPmhns-3-oUIJQPHndy&usqp=CAU" 
+            alt="dibujo de pan">
+            <h1 class="Title">Panadería</h1>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#Ingredientes">Ingredientes</a></li>
+                <li><a class="nav-link" href="#Proceso">El Proceso</a></li>
+                <li><a class="nav-link" href="#Productos">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="Hero">
+            <h2>
+             Pan de cultivo natural, hecho a mano y con cariño   
+            </h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input
+                  name="email"
+                  id="email"
+                  type="email"
+                  placeholder="Introduzca su email: "
+                  required
+                />
+                <input id="submit" type="submit" value="Enviar" class="btn" />
+              </form>
+        </section>
+        <div class="container">
+            <section id="Ingredientes">
+                <div class="grid">
+                    <div class="icon"><i class="fas fa-flask"></i></i></div>
+                    <div class="desc">
+                    <h2>Levadura</h2>
+                    <p> Cultivamos la levadura con tan sólo harina, agua y tiempo. Nuestras levaduras tienen años de crecimiento, con perfiles de sabores complejos y fascinantes.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fas fa-bread-slice"></i></i></i></div>
+                    <div class="desc">
+                    <h2>Harina</h2>
+                    <p> Panes hechos con las mejores harinas de trigo enriquecido, con altos contenidos protéicos, para desarrollar óptimamente el glúten que nos permite observar esas alveolos que tanto nos fascinan.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fas fa-hand-holding-water"></i></i></i></div>
+                    <div class="desc">
+                    <h2>Agua</h2>
+                    <p> El recurso de la vida, al igual que nosotros, la levadura la necesita para vivir. Para ello, cuidamos hasta la última gota de agua que utilizamos.</p>
+                    </div>
+                </div><div class="grid">
+                    <div class="icon"><i class="fas fa-seedling"></i></i></div>
+                    <div class="desc">
+                    <h2>Mucho más...</h2>
+                    <p> Nueces, sésamo, avena, arroz, frutas, raíces, especias, condimentos, quesos, vegetales e incluso hongos, si algo rico tiene el trigo, es que va bien con todo.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="Proceso">
+                <h2>Proceso</h2>
+                <p> Hacer pan, requiere de tiempo, pacienci y dedicación. Dejamos un tutorial sencillo, para que puedas prepararlo en tu casa:</p>
+                <iframe
+              id="video"
+              width="600" 
+              height="320" 
+              src="https://www.youtube.com/embed/yTTynk20KCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              frameborder= 10px;
+              allowfullscreen>
+            </iframe>
+            </section>
+            <section id="Productos">
+                <div class="product" id="pan">
+                    <div>Pan 100% Harina de trigo</div>
+                    <h2>Pan hecho sólo con harina de fuerza</h2>
+                    <ol>
+                        <li>Baggete.</li>
+                        <li>Batard</li>
+                        <li>Focaccia</li>
+                        <li>Sicciliano</li>
+                    </ol>
+                    <button class="btn">Seleccionar</button>
+                </div>
+                <div class="product" id="panint">
+                    <div>Pan con Harina de trigo</div>
+                    <h2>Pan hecho enriquecido con lo que prefieras</h2>
+                    <ol>
+                        <li>Frutos secos</li>
+                        <li>Furtas y verduras</li>
+                        <li>Especies</li>
+                        <li>Panes especiales</li>
+                    </ol>
+                    <button class="btn">Seleccionar</button>
+                </div>
+                <div class="product" id="pan">
+                    <div>Bollería</div>
+                    <h2>Productos dulces y deliciosos</h2>
+                    <ol>
+                        <li>Croissants</li>
+                        <li>Pies</li>
+                        <li>Tortas</li>
+                        <li>Brioche</li>
+                    </ol>
+                    <button class="btn">Seleccionar</button>
+                </div>
+                <footer>
+                    <ul>
+                      <li><a href="#">Privacidad</a></li>
+                      <li><a href="#">Términos</a></li>
+                      <li><a href="#">Contacto</a></li>
+                    </ul>
+                    <span>Copyright 2020, Panadería Sauerdof</span>
+                  </footer>
+            </section>
+        </div>
+    </div>
+</div>
+</body>
+</html>

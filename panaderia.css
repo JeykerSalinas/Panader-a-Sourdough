@@ -1,0 +1,43 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #F2F2F2;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+#page-wrapper {
+  position: relative;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;}
+  
+/** global classes styling **/
+  
+.container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 10px auto;
+}
+.head-img{
+ margin-left: 20px;
+ max-width: 7rem;
+ height: auto;
+  }
+.btn{
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 15px;
+  background: transparent;
+  cursor: pointer;
+}
